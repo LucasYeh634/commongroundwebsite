@@ -1,39 +1,49 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Communities | CommonGround</title><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CommonGround: an early concept for meaningful communities and real conversation.">
+  <title>Communities | CommonGround</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
 <header class="site-header">
-  <a class="brand" href="index.html">
-    <span class="brand-mark">C</span>
-    <span>CommonGround</span>
-  </a>
-  <button class="menu-button" aria-label="Open navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+  <a class="logo" href="index.html">CommonGround</a>
+  <button class="menu-button" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
   <nav class="nav-links">
-    <a href="index.html#story">Story</a>
+    <a href="about.html">About</a>
+    <a href="problem.html">Problem</a>
     <a href="vision.html">Vision</a>
     <a href="communities.html">Communities</a>
     <a href="prompts.html">Prompts</a>
-    <a href="stories.html">Gallery</a>
-    <a class="nav-cta" href="join.html">Join the idea</a>
+    <a href="stories.html">Stories</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="join.html">Join</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
-<main class="inner-page">
-<section class="page-hero"><p class="eyebrow">Communities</p><h1>Shared purpose can be stronger than shared demographics.</h1></section>
-<section class="community-grid">
-<article><h2>Music & Arts</h2><p>Students, performers, educators, and listeners exchanging opportunities and stories.</p></article>
-<article><h2>Health & Service</h2><p>People interested in medicine, caregiving, volunteering, and community health.</p></article>
-<article><h2>Intergenerational Stories</h2><p>Spaces where younger and older members can listen, mentor, and learn from one another.</p></article>
-<article><h2>Local Action</h2><p>Neighbors finding nearby needs, projects, events, and ways to participate.</p></article>
+
+<main>
+
+<section class="page-header">
+  <p class="eyebrow">Communities</p>
+  <h1>Smaller spaces with a shared purpose</h1>
 </section>
-<img class="wide-image" src="assets/senior-performance.jpg" alt="A performance for residents at a senior community">
+
+<section class="grid three">
+  <article class="card"><h2>Music & Arts</h2><p>Performers, listeners, teachers, and students sharing experiences and opportunities.</p></article>
+  <article class="card"><h2>Health & Service</h2><p>Students, clinicians, patients, and volunteers connecting around care and service.</p></article>
+  <article class="card"><h2>Intergenerational Stories</h2><p>Younger and older members learning from one another through guided conversation.</p></article>
+  <article class="card"><h2>Local Community</h2><p>Neighbors discovering nearby events, causes, and opportunities to help.</p></article>
+  <article class="card"><h2>Student Life</h2><p>Students finding peers with common goals, challenges, and interests.</p></article>
+  <article class="card"><h2>New Ideas</h2><p>Builders, designers, and researchers collaborating on meaningful problems.</p></article>
+</section>
+
 </main>
-<footer class="site-footer">
-  <div>
-    <strong>CommonGround</strong>
-    <p>An early concept exploring how technology can strengthen meaningful community.</p>
-  </div>
-  <div class="footer-links">
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </div>
+<footer>
+  <p>CommonGround is an early concept created by Lucas Yeh.</p>
 </footer>
-</body></html>
+</body>
+</html>
