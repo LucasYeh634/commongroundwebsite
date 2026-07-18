@@ -1,50 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CommonGround: an early concept for meaningful communities and real conversation.">
-  <title>Join the Project | CommonGround</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Join | CommonGround</title><link rel="stylesheet" href="style.css"></head>
 <body>
-
 <header class="site-header">
-  <a class="logo" href="index.html">CommonGround</a>
-  <button class="menu-button" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+  <a class="brand" href="index.html">
+    <span class="brand-mark">C</span>
+    <span>CommonGround</span>
+  </a>
+  <button class="menu-button" aria-label="Open navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
   <nav class="nav-links">
-    <a href="about.html">About</a>
-    <a href="problem.html">Problem</a>
+    <a href="index.html#story">Story</a>
     <a href="vision.html">Vision</a>
     <a href="communities.html">Communities</a>
     <a href="prompts.html">Prompts</a>
-    <a href="stories.html">Stories</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="join.html">Join</a>
-    <a href="contact.html">Contact</a>
+    <a href="stories.html">Gallery</a>
+    <a class="nav-cta" href="join.html">Join the idea</a>
   </nav>
 </header>
-
-<main>
-
-<section class="page-header">
-  <p class="eyebrow">Join the project</p>
-  <h1>Help shape an early idea</h1>
-  <p class="lead">This concept is still at the beginning. I am looking for people interested in community, design, coding, research, and storytelling.</p>
+<main class="inner-page">
+<section class="page-hero"><p class="eyebrow">Join the idea</p><h1>Help turn a question into a prototype.</h1><p>CommonGround is still at the concept stage. I am interested in perspectives from coding, design, research, community building, and storytelling.</p></section>
+<section class="feature-grid large">
+<article><h3>Developers</h3><p>Build a simple working experience and test what is technically possible.</p></article>
+<article><h3>Designers</h3><p>Create an interface that feels calm, welcoming, and human.</p></article>
+<article><h3>Researchers</h3><p>Explore loneliness, community health, trust, and meaningful interaction.</p></article>
+<article><h3>Community builders</h3><p>Challenge assumptions using real experience with groups, service, and events.</p></article>
 </section>
-
-<section class="grid two">
-  <article class="card"><h2>Developers</h2><p>Help turn the concept into a simple working prototype.</p></article>
-  <article class="card"><h2>Designers</h2><p>Help make the experience welcoming, simple, and human-centered.</p></article>
-  <article class="card"><h2>Researchers</h2><p>Help study loneliness, community health, and meaningful interaction.</p></article>
-  <article class="card"><h2>Storytellers</h2><p>Help communicate the mission through writing, music, interviews, and media.</p></article>
-</section>
-
-<p class="center"><a class="button" href="contact.html">Contact Lucas</a></p>
-
+<p class="center"><a class="button" href="contact.html">Start a conversation</a></p>
 </main>
-<footer>
-  <p>CommonGround is an early concept created by Lucas Yeh.</p>
+<footer class="site-footer">
+  <div>
+    <strong>CommonGround</strong>
+    <p>An early concept exploring how technology can strengthen meaningful community.</p>
+  </div>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </footer>
-</body>
-</html>
+</body></html>

@@ -1,49 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CommonGround: an early concept for meaningful communities and real conversation.">
-  <title>Conversation Prompts | CommonGround</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prompts | CommonGround</title><link rel="stylesheet" href="style.css"></head>
 <body>
-
 <header class="site-header">
-  <a class="logo" href="index.html">CommonGround</a>
-  <button class="menu-button" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
+  <a class="brand" href="index.html">
+    <span class="brand-mark">C</span>
+    <span>CommonGround</span>
+  </a>
+  <button class="menu-button" aria-label="Open navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">Menu</button>
   <nav class="nav-links">
-    <a href="about.html">About</a>
-    <a href="problem.html">Problem</a>
+    <a href="index.html#story">Story</a>
     <a href="vision.html">Vision</a>
     <a href="communities.html">Communities</a>
     <a href="prompts.html">Prompts</a>
-    <a href="stories.html">Stories</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="join.html">Join</a>
-    <a href="contact.html">Contact</a>
+    <a href="stories.html">Gallery</a>
+    <a class="nav-cta" href="join.html">Join the idea</a>
   </nav>
 </header>
-
-<main>
-
-<section class="page-header">
-  <p class="eyebrow">Conversation prompts</p>
-  <h1>Questions worth answering</h1>
+<main class="inner-page">
+<section class="page-hero"><p class="eyebrow">Conversation prompts</p><h1>Questions worth slowing down for.</h1></section>
+<section class="prompt-grid">
+<article>What is a lesson someone older taught you that you still remember?</article>
+<article>When have you felt most connected to your community?</article>
+<article>What do people often misunderstand about your generation?</article>
+<article>What experience changed the way you see another person?</article>
+<article>What local problem would you help solve with the right team?</article>
+<article>What story, tradition, or skill do you hope is never forgotten?</article>
 </section>
-
-<section class="grid two">
-  <article class="prompt-card"><p>What is a lesson someone older taught you that you still remember?</p></article>
-  <article class="prompt-card"><p>When have you felt most connected to your community?</p></article>
-  <article class="prompt-card"><p>What is something people often misunderstand about your generation?</p></article>
-  <article class="prompt-card"><p>What experience changed the way you see another person?</p></article>
-  <article class="prompt-card"><p>What local problem would you help solve if you had the right team?</p></article>
-  <article class="prompt-card"><p>What tradition, story, or skill do you hope is never forgotten?</p></article>
-</section>
-
 </main>
-<footer>
-  <p>CommonGround is an early concept created by Lucas Yeh.</p>
+<footer class="site-footer">
+  <div>
+    <strong>CommonGround</strong>
+    <p>An early concept exploring how technology can strengthen meaningful community.</p>
+  </div>
+  <div class="footer-links">
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
 </footer>
-</body>
-</html>
+</body></html>
