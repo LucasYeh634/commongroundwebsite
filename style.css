@@ -243,3 +243,5 @@ footer {
     padding-top: 45px;
   }
 }
+
+.hero-video{width:80%;max-width:900px;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.15);}
